@@ -73,21 +73,3 @@ namespace MenuSMPTUserConsoleApp
         #endregion 
     }
 }
-//Masking user password in console
-//ConsoleKeyInfo key;
-//do
-//{
-//    key = Console.ReadKey(true);
-//    // Backspace Should Not Work
-//    if (key.Key != ConsoleKey.Backspace)
-//    {
-//        pass += key.KeyChar;
-//        Console.Write("*");
-//    }
-//    else
-//    {
-//        Console.Write("\b");//in a character class matches a bs
-//    }
-//}
-////stops receving keys once enter is pressed
-//while (key.Key != ConsoleKey.Backspace);
