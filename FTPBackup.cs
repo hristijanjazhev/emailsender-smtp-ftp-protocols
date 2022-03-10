@@ -9,7 +9,6 @@ namespace MenuSMPTUserConsoleApp
 {
     class FTPBackup
     {
-        //Declared variables
         #region
         public string host = "ftp://82.214.114.2";
         public string path = "/HomeWork/";
@@ -18,13 +17,11 @@ namespace MenuSMPTUserConsoleApp
         public string password = "qjeK7#88";
         public string filePath = "/HomeWork/HristijanFolder/";
         public string deleteFile = "/HomeWork";
-        //MenuBar CreateMenuBar = new MenuBar();
         #endregion
         //Create ftp folder
         #region
         public bool CreateFtpFolder()
         {
-            //TODO check if directory exists 
             string path = "/HomeWork/";
             bool isCreated = true;
             try
@@ -73,7 +70,6 @@ namespace MenuSMPTUserConsoleApp
         #region
         public void FileToUpload()
         {
-            //string From = @"C:/HomeWork/Index/";
             string filePath = "/HomeWork/";
             WebClient wc = new WebClient();
             wc.Credentials = new NetworkCredential(userId, password);
@@ -94,7 +90,6 @@ namespace MenuSMPTUserConsoleApp
                 using (FtpWebResponse response = (FtpWebResponse)request.GetResponse())
                 {
                     isexist = true;
-                    //Console.WriteLine(response.StatusCode + );
                 }
             }
             catch (WebException ex)
