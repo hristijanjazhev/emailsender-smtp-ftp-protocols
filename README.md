@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **FTP_EmailSender**
 
-- 🌱 I’m currently learning **JDBC(Java Database Connectivity)**
+- 🌱 I’m currently learning **File Transfer Protocol**
 
 - 👨‍💻 All of my projects are available at [https://github.com/hristijan11](https://github.com/hristijan11)
 
