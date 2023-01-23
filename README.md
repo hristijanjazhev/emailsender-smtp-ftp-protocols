@@ -12,4 +12,4 @@ Function of EmailSender which i made, it's succesffull only by adding Generated 
 ▬Doing this process i had a proper Menu with switch cases and implemented methods for linking the pages.
 3#
 Adding enviorment method for automathically close the program.
-#Feel free to share your thoughts,hope you enjoy it.
+#Feel free to share your thoughts.
