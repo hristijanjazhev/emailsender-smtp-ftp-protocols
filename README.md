@@ -3,7 +3,7 @@
 
 
 
-- 🔭 I’m currently working on **FTProtocol_EmailSender....*
+- 🔭 I’m currently working on **FTProtocol_EmailSender*
 
 - 👨‍💻 All of my projects are available at [https://github.com/hristijan11](https://github.com/hristijan11)
 
